@@ -1,0 +1,68 @@
+/* Reset CSS */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+html{
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 1.5;
+}
+#header{
+    height: 59px;
+    background: #006699;
+}
+ul{
+    list-style-type:none;   
+}
+#nav1{
+    color: #ffee00;
+    font-weight: 600px;
+    font-size: 35px;
+    line-height: 59px;
+    padding: 0px 220px;
+}
+#nav2{
+    line-height: 59px;
+    position: absolute;
+    top: 0;
+    left: 800px;
+}
+#nav2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    padding: 12px;
+}
+#footer {
+    position: relative;
+    top:3700px;
+    width: 100%;
+    background-color:#006699 ;
+    color: white;
+    line-height: 1.5;
+}
+#footer .muc1{
+    padding: 30px 0px 30px 150px;
+}
+#footer .muc2{
+    position: absolute;
+    left:750px;
+    top:30px;
+}
+#footer .muc3{
+    position: absolute;
+    right: 240px;
+    top:20px;
+    font-size: 40px;
+}
+#footer .muc4{
+    position: absolute;
+    right: 280px;
+    top:150px;
+}
+#footer .muc5{
+    background:#002447;
+    line-height: 50px;
+    padding: 10px 150px;
+
+}
